@@ -1,0 +1,203 @@
+
+body{
+    background-color: rgb(231, 228, 228);
+    font-family: 'Exo', sans-serif;
+    width: 100%;
+    color: black;
+}
+
+main{
+    color:black;
+    background-color:rgb(255, 255, 255);
+    text-align:center;
+}
+
+header{
+    width: 100%;
+}
+
+#Hero{
+    width: 100%;
+}
+
+section{
+    padding: 2em;
+}
+#section-img1{
+    width: 25%;
+    padding: .5em .5em;
+}
+
+#section-img2{
+    width: 37%;
+    padding: .5em .5em
+}
+
+#section-img3{
+    width: 25%;
+    padding: .5em .5em;
+}
+
+#right{
+    width: 42%;
+    float: right;
+    padding-right: 2em;
+    padding-top: 0;
+    min-height: 10em;
+}
+aside{
+    width: 42%;
+    float: left;
+    padding-left:2em;
+    padding-bottom: 0;
+    min-height: 10em;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    color: black;
+}
+
+.topNav{
+    color: black;
+}
+
+footer{
+    padding-top: 12em;
+    text-align: center;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2em;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 600px){
+
+nav {
+    background-color: rgba(255, 253, 253, 0.705);
+    color: black;
+    overflow: hidden;
+}
+
+.topNav a{
+    color: black;
+    width: auto;
+}
+
+.topNav a:not(:first-child){
+    display: none;
+}
+
+.topNav a.icon {
+    float: right;
+    display: block;
+}
+
+.topNav.responsive{
+    position: relative;
+}
+
+.topNav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+
+.content{
+    color: white;
+}
+
+#right{
+    width: 80%;
+    float: left;
+    padding: 2em;
+}
+
+aside{
+    width: 80%;
+}
+
+footer{
+        min-width: 5em;
+    }
+
+    .responsive {
+    width: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}    
+}
+
+
+/*End of Mobile*/
+
+/* tablet */
+
+@media only screen and (min-width: 601px){
+    .topNav a{
+    display: block;
+    width: 19%;
+    float: left;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: .25%;
+    text-decoration: none;
+}
+nav{
+    background-color:white;
+    color: black;
+    overflow: hidden;
+}
+
+.responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+}
+
+}
+@media only screen and (min-width: 1000px){
+nav{
+    background-color: rgb(247, 245, 245);
+    color: black;
+    overflow: hidden;
+}
+}
